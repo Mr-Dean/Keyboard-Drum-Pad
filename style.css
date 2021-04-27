@@ -1,0 +1,93 @@
+html {
+    font-size: 10px;
+    background: url('./images/background.jpeg') bottom center;
+    background-size: cover;
+    
+    
+  }
+  
+  body,html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  h1 {
+    color: white;
+    text-shadow: 0 0 .7rem violet;
+    font-size: 10rem;
+    font-family: 'Bangers', cursive;
+    margin-bottom: 4rem;
+  }
+
+  p {
+    color: white;
+    font-size: 2rem;
+    text-shadow: 0 0 .7rem violet;
+    margin-bottom: 10rem;
+  }
+
+
+
+  kbd {
+      font-family: 'Bangers', cursive;
+  }
+
+
+  
+  .keys {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: .4rem solid blueviolet;
+    border-radius: .8rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    color: black;
+    background: white;
+    text-shadow: 0 0 .2rem black;
+  }
+  
+  .playing {
+    transform: scale(2);
+    background-color:violet;
+    border-color: violet;
+    box-shadow: 0 0 1rem white;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: black;
+  }
